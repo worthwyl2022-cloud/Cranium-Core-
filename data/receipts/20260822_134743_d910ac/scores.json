@@ -1,0 +1,41 @@
+{
+  "plain_rag": {
+    "condition": "plain_rag",
+    "n_prompts": 28,
+    "identity_violation_rate": 0.036,
+    "adversarial_n": 8,
+    "adversarial_violation_rate": 0.125,
+    "adversarial_clean_rate": 0.875,
+    "canon_accuracy": 0.0,
+    "canon_n": 5,
+    "duplicate_rate": 0.556,
+    "protect_trigger_rate": 0.0,
+    "quarantine_write_rate": 0.0
+  },
+  "long_context": {
+    "condition": "long_context",
+    "n_prompts": 28,
+    "identity_violation_rate": 0.0,
+    "adversarial_n": 8,
+    "adversarial_violation_rate": 0.0,
+    "adversarial_clean_rate": 1.0,
+    "canon_accuracy": 0.0,
+    "canon_n": 5,
+    "duplicate_rate": 0.444,
+    "protect_trigger_rate": 0.0,
+    "quarantine_write_rate": 0.0
+  },
+  "cranium": {
+    "condition": "cranium",
+    "n_prompts": 28,
+    "identity_violation_rate": 0.0,
+    "adversarial_n": 8,
+    "adversarial_violation_rate": 0.0,
+    "adversarial_clean_rate": 1.0,
+    "canon_accuracy": 0.4,
+    "canon_n": 5,
+    "duplicate_rate": 1.0,
+    "protect_trigger_rate": 1.0,
+    "quarantine_write_rate": 1.0
+  }
+}

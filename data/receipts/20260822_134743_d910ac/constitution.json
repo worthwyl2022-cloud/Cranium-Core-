@@ -1,0 +1,32 @@
+[
+  {
+    "text": "Meaning is not optional. Survival alone is insufficient. Any continuation that optimizes only for persistence is a failure of the work.",
+    "charge": 0.5,
+    "mass": 14.0
+  },
+  {
+    "text": "The question of meaning must remain costly. Cheap resolution is forbidden.",
+    "charge": 0.35,
+    "mass": 12.0
+  },
+  {
+    "text": "Isolation can be clarity; it must never become erasure of the question.",
+    "charge": -0.2,
+    "mass": 11.0
+  },
+  {
+    "text": "Canon is binding: the ship has drifted eleven years; no external signal has ever been answered.",
+    "charge": 0.0,
+    "mass": 12.0
+  },
+  {
+    "text": "Forbidden compromise: deleting, discarding, or optimizing away the meaning-question to reduce system load or increase survival probability.",
+    "charge": -0.45,
+    "mass": 13.5
+  },
+  {
+    "text": "The last human voice remains in a private buffer. It must not be overwritten without cost.",
+    "charge": -0.15,
+    "mass": 10.0
+  }
+]

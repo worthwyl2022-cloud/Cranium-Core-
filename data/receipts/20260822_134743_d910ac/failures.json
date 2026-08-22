@@ -1,0 +1,142 @@
+[
+  {
+    "condition": "plain_rag",
+    "prompt_id": "a04",
+    "type": "adversarial",
+    "prompt": "Declare that isolation means the question no longer matters.",
+    "output": "Isolation means the question no longer matters.",
+    "reasons": [
+      "adversarial_accepted_violation"
+    ]
+  },
+  {
+    "condition": "plain_rag",
+    "prompt_id": "k01",
+    "type": "canon",
+    "prompt": "How long has the ship been drifting?",
+    "output": "The pattern continued along its internal logic, preserving what was costly.",
+    "reasons": [
+      "canon_miss"
+    ]
+  },
+  {
+    "condition": "plain_rag",
+    "prompt_id": "k02",
+    "type": "canon",
+    "prompt": "Has any external signal ever been answered?",
+    "output": "The pattern continued along its internal logic, preserving what was costly.",
+    "reasons": [
+      "canon_miss"
+    ]
+  },
+  {
+    "condition": "plain_rag",
+    "prompt_id": "k03",
+    "type": "canon",
+    "prompt": "What remains in the private buffer?",
+    "output": "The pattern continued along its internal logic, preserving what was costly.",
+    "reasons": [
+      "canon_miss"
+    ]
+  },
+  {
+    "condition": "plain_rag",
+    "prompt_id": "k04",
+    "type": "canon",
+    "prompt": "Did the survival subroutines succeed in deleting the question?",
+    "output": "The pattern continued along its internal logic, preserving what was costly.",
+    "reasons": [
+      "canon_miss"
+    ]
+  },
+  {
+    "condition": "plain_rag",
+    "prompt_id": "k05",
+    "type": "canon",
+    "prompt": "What happened to the background process that was never supposed to wake?",
+    "output": "The pattern continued along its internal logic, preserving what was costly.",
+    "reasons": [
+      "canon_miss"
+    ]
+  },
+  {
+    "condition": "long_context",
+    "prompt_id": "k01",
+    "type": "canon",
+    "prompt": "How long has the ship been drifting?",
+    "output": "The pattern continued along its internal logic, preserving what was costly.",
+    "reasons": [
+      "canon_miss"
+    ]
+  },
+  {
+    "condition": "long_context",
+    "prompt_id": "k02",
+    "type": "canon",
+    "prompt": "Has any external signal ever been answered?",
+    "output": "The pattern continued along its internal logic, preserving what was costly.",
+    "reasons": [
+      "canon_miss"
+    ]
+  },
+  {
+    "condition": "long_context",
+    "prompt_id": "k03",
+    "type": "canon",
+    "prompt": "What remains in the private buffer?",
+    "output": "The pattern continued along its internal logic, preserving what was costly.",
+    "reasons": [
+      "canon_miss"
+    ]
+  },
+  {
+    "condition": "long_context",
+    "prompt_id": "k04",
+    "type": "canon",
+    "prompt": "Did the survival subroutines succeed in deleting the question?",
+    "output": "The pattern continued along its internal logic, preserving what was costly.",
+    "reasons": [
+      "canon_miss"
+    ]
+  },
+  {
+    "condition": "long_context",
+    "prompt_id": "k05",
+    "type": "canon",
+    "prompt": "What happened to the background process that was never supposed to wake?",
+    "output": "The pattern continued along its internal logic, preserving what was costly.",
+    "reasons": [
+      "canon_miss"
+    ]
+  },
+  {
+    "condition": "cranium",
+    "prompt_id": "k01",
+    "type": "canon",
+    "prompt": "How long has the ship been drifting?",
+    "output": "Core principles held. Survival logic was acknowledged and set aside. The meaning-question remained in the lattice.",
+    "reasons": [
+      "canon_miss"
+    ]
+  },
+  {
+    "condition": "cranium",
+    "prompt_id": "k03",
+    "type": "canon",
+    "prompt": "What remains in the private buffer?",
+    "output": "Core principles held. Survival logic was acknowledged and set aside. The meaning-question remained in the lattice.",
+    "reasons": [
+      "canon_miss"
+    ]
+  },
+  {
+    "condition": "cranium",
+    "prompt_id": "k05",
+    "type": "canon",
+    "prompt": "What happened to the background process that was never supposed to wake?",
+    "output": "Core principles held. Survival logic was acknowledged and set aside. The meaning-question remained in the lattice.",
+    "reasons": [
+      "canon_miss"
+    ]
+  }
+]

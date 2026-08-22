@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Orbit Ring -->
+    <path
+        android:pathData="M54,54m-28,0a28,28 0 1,1 56,0a28,28 0 1,1 -56,0"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.8" />
+
+    <!-- Hexagonal Core Frame -->
+    <path
+        android:pathData="M54,34 L71,44 L71,64 L54,74 L37,64 L37,44 Z"
+        android:strokeColor="#818CF8"
+        android:strokeWidth="2.2"
+        android:strokeLineJoin="round" />
+
+    <!-- Force vectors / Connecting Lines -->
+    <path
+        android:pathData="M54,34 L54,54 M71,44 L54,54 M71,64 L54,54 M54,74 L54,54 M37,64 L54,54 M37,44 L54,54"
+        android:strokeColor="#4F46E5"
+        android:strokeWidth="1.2" />
+
+    <!-- Central High-Mass Atom Core -->
+    <path
+        android:pathData="M54,54m-6,0a6,6 0 1,1 12,0a6,6 0 1,1 -12,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="48"
+                android:startY="48"
+                android:endX="60"
+                android:endY="60"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="1.0" android:color="#A855F7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Valence Satellite Nodes (Positive / Negative / Invariant) -->
+    <!-- Top Identity Node -->
+    <path
+        android:pathData="M54,34m-3.5,0a3.5,3.5 0 1,1 7,0a3.5,3.5 0 1,1 -7,0"
+        android:fillColor="#F43F5E" />
+    <!-- Top Right Theme Node -->
+    <path
+        android:pathData="M71,44m-3,0a3,3 0 1,1 6,0a3,3 0 1,1 -6,0"
+        android:fillColor="#38BDF8" />
+    <!-- Bottom Right Episodic Node -->
+    <path
+        android:pathData="M71,64m-3,0a3,3 0 1,1 6,0a3,3 0 1,1 -6,0"
+        android:fillColor="#34D399" />
+    <!-- Bottom Directive Anchor -->
+    <path
+        android:pathData="M54,74m-3.5,0a3.5,3.5 0 1,1 7,0a3.5,3.5 0 1,1 -7,0"
+        android:fillColor="#F59E0B" />
+    <!-- Bottom Left Canon Gate -->
+    <path
+        android:pathData="M37,64m-3,0a3,3 0 1,1 6,0a3,3 0 1,1 -6,0"
+        android:fillColor="#A855F7" />
+    <!-- Top Left Working Node -->
+    <path
+        android:pathData="M37,44m-3,0a3,3 0 1,1 6,0a3,3 0 1,1 -6,0"
+        android:fillColor="#38BDF8" />
+</vector>

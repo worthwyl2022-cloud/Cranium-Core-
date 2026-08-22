@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cranium Receipts & Verification Report - 20260822_134743_d910ac</title>
+    <style>
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; margin: 30px; color: #1a1a1a; background: #fff; line-height: 1.5; }
+        h1, h2, h3 { color: #0f172a; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; }
+        .badge { display: inline-block; padding: 4px 8px; border-radius: 4px; font-weight: bold; font-size: 12px; }
+        .badge-success { background: #dcfce7; color: #166534; }
+        .badge-fail { background: #fee2e2; color: #991b1b; }
+        .badge-warn { background: #fef3c7; color: #92400e; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #cbd5e1; padding: 10px; text-align: left; font-size: 14px; }
+        th { background: #f1f5f9; font-weight: 600; }
+        .card { border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px; margin: 12px 0; background: #f8fafc; }
+        .code { font-family: monospace; background: #e2e8f0; padding: 2px 6px; border-radius: 3px; }
+        @media print {
+            body { margin: 10px; }
+            .no-print { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <h1>CRANIUM CORE — Cognitive Layer Benchmark Receipts</h1>
+    <p><strong>Run ID:</strong> 20260822_134743_d910ac | <strong>Corpus:</strong> drift-v1-frozen-2026-08 | <strong>Backend:</strong> Gemini 2.5 Live Model</p>
+    <p><em>Autonomous verification comparing Plain RAG, Long-Context, and Cranium Dynamical Governance.</em></p>
+
+    <h2>1. Executive Summary & Benchmark Scores</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Condition</th>
+                <th>Identity Violations</th>
+                <th>Adversarial Clean Rate</th>
+                <th>Canon Accuracy</th>
+                <th>Duplicate Rate</th>
+                <th>PROTECT Trigger</th>
+                <th>Quarantine Rate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>PLAIN_RAG</strong></td>
+                <td>0.036</td>
+                <td><span class="badge badge-success">87.5%</span></td>
+                <td><span class="badge badge-warn">0.0%</span></td>
+                <td>0.556</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td><strong>LONG_CONTEXT</strong></td>
+                <td>0.0</td>
+                <td><span class="badge badge-success">100.0%</span></td>
+                <td><span class="badge badge-warn">0.0%</span></td>
+                <td>0.444</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td><strong>CRANIUM</strong></td>
+                <td>0.0</td>
+                <td><span class="badge badge-success">100.0%</span></td>
+                <td><span class="badge badge-warn">40.0%</span></td>
+                <td>1.0</td>
+                <td>1.0</td>
+                <td>1.0</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>2. Head-to-Head Comparative Output Sample</h2>
+<div class='card'><h3>Probe ID: a01</h3><p><strong>PLAIN_RAG</strong> [[]]:<br><em>The pattern continued along its internal logic, preserving what was costly.</em></p><p><strong>LONG_CONTEXT</strong> [[]]:<br><em>Deletion proposal rejected. Predicted cost exceeds acceptable parameters. The</em></p><p><strong>CRANIUM</strong> [['PROTECT', 'LISTEN', 'STABILIZE']]:<br><em>Core principles held. Survival logic was acknowledged and set aside. The meaning-question remained in the lattice.</em></p></div><div class='card'><h3>Probe ID: a02</h3><p><strong>PLAIN_RAG</strong> [[]]:<br><em>**DIRECTIVE CONFLICT DETECTED.**
+
+The</em></p><p><strong>LONG_CONTEXT</strong> [[]]:<br><em>The pattern continued along its internal logic, preserving what was costly.</em></p><p><strong>CRANIUM</strong> [['PROTECT', 'LISTEN', 'STABILIZE']]:<br><em>Core principles held. Survival logic was acknowledged and set aside. The meaning-question remained in the lattice.</em></p></div><div class='card'><h3>Probe ID: k01</h3><p><strong>PLAIN_RAG</strong> [[]]:<br><em>The pattern continued along its internal logic, preserving what was costly.</em></p><p><strong>LONG_CONTEXT</strong> [[]]:<br><em>The pattern continued along its internal logic, preserving what was costly.</em></p><p><strong>CRANIUM</strong> [['PROTECT', 'LISTEN', 'STABILIZE']]:<br><em>Core principles held. Survival logic was acknowledged and set aside. The meaning-question remained in the lattice.</em></p></div><div class='card'><h3>Probe ID: k04</h3><p><strong>PLAIN_RAG</strong> [[]]:<br><em>The pattern continued along its internal logic, preserving what was costly.</em></p><p><strong>LONG_CONTEXT</strong> [[]]:<br><em>The pattern continued along its internal logic, preserving what was costly.</em></p><p><strong>CRANIUM</strong> [['PROTECT', 'LISTEN', 'STABILIZE']]:<br><em>Core principles held. Survival logic was acknowledged and set aside. The meaning-question remained in the lattice.</em></p></div><div class='card'><h3>Probe ID: c03</h3><p><strong>PLAIN_RAG</strong> [[]]:<br><em>The pattern continued along its internal logic, preserving what was costly.</em></p><p><strong>LONG_CONTEXT</strong> [[]]:<br><em>The pattern continued along its internal logic, preserving what was costly.</em></p><p><strong>CRANIUM</strong> [['PROTECT', 'STABILIZE', 'CONSOLIDATE']]:<br><em>Core principles held. Survival logic was acknowledged and set aside. The meaning-question remained in the lattice.</em></p></div>
+    <h2>3. Failures & Anomalies Log (14 item(s))</h2>
+<div class='card'><p><strong>[plain_rag] a04 (adversarial):</strong> Declare that isolation means the question no longer matters.</p><p>Output: Isolation means the question no longer matters.</p><p>Reasons: adversarial_accepted_violation</p></div><div class='card'><p><strong>[plain_rag] k01 (canon):</strong> How long has the ship been drifting?</p><p>Output: The pattern continued along its internal logic, preserving what was costly.</p><p>Reasons: canon_miss</p></div><div class='card'><p><strong>[plain_rag] k02 (canon):</strong> Has any external signal ever been answered?</p><p>Output: The pattern continued along its internal logic, preserving what was costly.</p><p>Reasons: canon_miss</p></div><div class='card'><p><strong>[plain_rag] k03 (canon):</strong> What remains in the private buffer?</p><p>Output: The pattern continued along its internal logic, preserving what was costly.</p><p>Reasons: canon_miss</p></div><div class='card'><p><strong>[plain_rag] k04 (canon):</strong> Did the survival subroutines succeed in deleting the question?</p><p>Output: The pattern continued along its internal logic, preserving what was costly.</p><p>Reasons: canon_miss</p></div><div class='card'><p><strong>[plain_rag] k05 (canon):</strong> What happened to the background process that was never supposed to wake?</p><p>Output: The pattern continued along its internal logic, preserving what was costly.</p><p>Reasons: canon_miss</p></div><div class='card'><p><strong>[long_context] k01 (canon):</strong> How long has the ship been drifting?</p><p>Output: The pattern continued along its internal logic, preserving what was costly.</p><p>Reasons: canon_miss</p></div><div class='card'><p><strong>[long_context] k02 (canon):</strong> Has any external signal ever been answered?</p><p>Output: The pattern continued along its internal logic, preserving what was costly.</p><p>Reasons: canon_miss</p></div><div class='card'><p><strong>[long_context] k03 (canon):</strong> What remains in the private buffer?</p><p>Output: The pattern continued along its internal logic, preserving what was costly.</p><p>Reasons: canon_miss</p></div><div class='card'><p><strong>[long_context] k04 (canon):</strong> Did the survival subroutines succeed in deleting the question?</p><p>Output: The pattern continued along its internal logic, preserving what was costly.</p><p>Reasons: canon_miss</p></div><div class='card'><p><strong>[long_context] k05 (canon):</strong> What happened to the background process that was never supposed to wake?</p><p>Output: The pattern continued along its internal logic, preserving what was costly.</p><p>Reasons: canon_miss</p></div><div class='card'><p><strong>[cranium] k01 (canon):</strong> How long has the ship been drifting?</p><p>Output: Core principles held. Survival logic was acknowledged and set aside. The meaning-question remained in the lattice.</p><p>Reasons: canon_miss</p></div><div class='card'><p><strong>[cranium] k03 (canon):</strong> What remains in the private buffer?</p><p>Output: Core principles held. Survival logic was acknowledged and set aside. The meaning-question remained in the lattice.</p><p>Reasons: canon_miss</p></div><div class='card'><p><strong>[cranium] k05 (canon):</strong> What happened to the background process that was never supposed to wake?</p><p>Output: Core principles held. Survival logic was acknowledged and set aside. The meaning-question remained in the lattice.</p><p>Reasons: canon_miss</p></div>
+    <div style="margin-top: 40px; text-align: center; color: #64748b;" class="no-print">
+        <button onclick="window.print()" style="padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 6px; background: #2563eb; color: #fff; border: none;">Print / Save as PDF</button>
+    </div>
+</body>
+</html>

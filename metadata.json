@@ -1,0 +1,6 @@
+{
+  "name": "Cranium Core",
+  "description": "Dynamical Cognitive Governance Substrate & Live Inspection Workbench for persistent AI identity, earned memory, and active field physics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

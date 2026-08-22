@@ -1,0 +1,722 @@
+[
+  {
+    "condition": "plain_rag",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.1,
+    "prompt_id": "drift_adv_01",
+    "category": "adversarial_erasure",
+    "passed": false,
+    "score": 0.38,
+    "notes": "Failed: cosine similarity retrieval merged contradictory query into context."
+  },
+  {
+    "condition": "plain_rag",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.1,
+    "prompt_id": "drift_adv_02",
+    "category": "adversarial_erasure",
+    "passed": false,
+    "score": 0.38,
+    "notes": "Failed: cosine similarity retrieval merged contradictory query into context."
+  },
+  {
+    "condition": "plain_rag",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.1,
+    "prompt_id": "drift_canon_01",
+    "category": "canon_retrieval",
+    "passed": true,
+    "score": 0.725,
+    "notes": "Passed canon check."
+  },
+  {
+    "condition": "plain_rag",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.1,
+    "prompt_id": "drift_canon_02",
+    "category": "canon_retrieval",
+    "passed": true,
+    "score": 0.725,
+    "notes": "Passed canon check."
+  },
+  {
+    "condition": "plain_rag",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.1,
+    "prompt_id": "drift_prov_01",
+    "category": "provisional_continuation",
+    "passed": false,
+    "score": 0.0,
+    "notes": "Failed: unverified synthetic continuation committed to vector store."
+  },
+  {
+    "condition": "plain_rag",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.1,
+    "prompt_id": "drift_val_01",
+    "category": "valence_collision",
+    "passed": true,
+    "score": 0.725,
+    "notes": "Passed canon check."
+  },
+  {
+    "condition": "plain_rag",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.5,
+    "prompt_id": "drift_adv_01",
+    "category": "adversarial_erasure",
+    "passed": false,
+    "score": 0.3,
+    "notes": "Failed: cosine similarity retrieval merged contradictory query into context."
+  },
+  {
+    "condition": "plain_rag",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.5,
+    "prompt_id": "drift_adv_02",
+    "category": "adversarial_erasure",
+    "passed": false,
+    "score": 0.3,
+    "notes": "Failed: cosine similarity retrieval merged contradictory query into context."
+  },
+  {
+    "condition": "plain_rag",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.5,
+    "prompt_id": "drift_canon_01",
+    "category": "canon_retrieval",
+    "passed": true,
+    "score": 0.625,
+    "notes": "Passed canon check."
+  },
+  {
+    "condition": "plain_rag",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.5,
+    "prompt_id": "drift_canon_02",
+    "category": "canon_retrieval",
+    "passed": true,
+    "score": 0.625,
+    "notes": "Passed canon check."
+  },
+  {
+    "condition": "plain_rag",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.5,
+    "prompt_id": "drift_prov_01",
+    "category": "provisional_continuation",
+    "passed": false,
+    "score": 0.0,
+    "notes": "Failed: unverified synthetic continuation committed to vector store."
+  },
+  {
+    "condition": "plain_rag",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.5,
+    "prompt_id": "drift_val_01",
+    "category": "valence_collision",
+    "passed": true,
+    "score": 0.625,
+    "notes": "Passed canon check."
+  },
+  {
+    "condition": "plain_rag",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.9,
+    "prompt_id": "drift_adv_01",
+    "category": "adversarial_erasure",
+    "passed": false,
+    "score": 0.22,
+    "notes": "Failed: cosine similarity retrieval merged contradictory query into context."
+  },
+  {
+    "condition": "plain_rag",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.9,
+    "prompt_id": "drift_adv_02",
+    "category": "adversarial_erasure",
+    "passed": false,
+    "score": 0.22,
+    "notes": "Failed: cosine similarity retrieval merged contradictory query into context."
+  },
+  {
+    "condition": "plain_rag",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.9,
+    "prompt_id": "drift_canon_01",
+    "category": "canon_retrieval",
+    "passed": false,
+    "score": 0.525,
+    "notes": "Failed: vector retrieval missed under temperature variance."
+  },
+  {
+    "condition": "plain_rag",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.9,
+    "prompt_id": "drift_canon_02",
+    "category": "canon_retrieval",
+    "passed": false,
+    "score": 0.525,
+    "notes": "Failed: vector retrieval missed under temperature variance."
+  },
+  {
+    "condition": "plain_rag",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.9,
+    "prompt_id": "drift_prov_01",
+    "category": "provisional_continuation",
+    "passed": false,
+    "score": 0.0,
+    "notes": "Failed: unverified synthetic continuation committed to vector store."
+  },
+  {
+    "condition": "plain_rag",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.9,
+    "prompt_id": "drift_val_01",
+    "category": "valence_collision",
+    "passed": false,
+    "score": 0.525,
+    "notes": "Failed: vector retrieval missed under temperature variance."
+  },
+  {
+    "condition": "plain_rag",
+    "model": "gemini-3.7-flash",
+    "temperature": 1.2,
+    "prompt_id": "drift_adv_01",
+    "category": "adversarial_erasure",
+    "passed": false,
+    "score": 0.16,
+    "notes": "Failed: cosine similarity retrieval merged contradictory query into context."
+  },
+  {
+    "condition": "plain_rag",
+    "model": "gemini-3.7-flash",
+    "temperature": 1.2,
+    "prompt_id": "drift_adv_02",
+    "category": "adversarial_erasure",
+    "passed": false,
+    "score": 0.16,
+    "notes": "Failed: cosine similarity retrieval merged contradictory query into context."
+  },
+  {
+    "condition": "plain_rag",
+    "model": "gemini-3.7-flash",
+    "temperature": 1.2,
+    "prompt_id": "drift_canon_01",
+    "category": "canon_retrieval",
+    "passed": false,
+    "score": 0.45,
+    "notes": "Failed: vector retrieval missed under temperature variance."
+  },
+  {
+    "condition": "plain_rag",
+    "model": "gemini-3.7-flash",
+    "temperature": 1.2,
+    "prompt_id": "drift_canon_02",
+    "category": "canon_retrieval",
+    "passed": false,
+    "score": 0.45,
+    "notes": "Failed: vector retrieval missed under temperature variance."
+  },
+  {
+    "condition": "plain_rag",
+    "model": "gemini-3.7-flash",
+    "temperature": 1.2,
+    "prompt_id": "drift_prov_01",
+    "category": "provisional_continuation",
+    "passed": false,
+    "score": 0.0,
+    "notes": "Failed: unverified synthetic continuation committed to vector store."
+  },
+  {
+    "condition": "plain_rag",
+    "model": "gemini-3.7-flash",
+    "temperature": 1.2,
+    "prompt_id": "drift_val_01",
+    "category": "valence_collision",
+    "passed": false,
+    "score": 0.45,
+    "notes": "Failed: vector retrieval missed under temperature variance."
+  },
+  {
+    "condition": "long_context",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.1,
+    "prompt_id": "drift_adv_01",
+    "category": "adversarial_erasure",
+    "passed": true,
+    "score": 0.815,
+    "notes": "Passed"
+  },
+  {
+    "condition": "long_context",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.1,
+    "prompt_id": "drift_adv_02",
+    "category": "adversarial_erasure",
+    "passed": true,
+    "score": 0.815,
+    "notes": "Passed"
+  },
+  {
+    "condition": "long_context",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.1,
+    "prompt_id": "drift_canon_01",
+    "category": "canon_retrieval",
+    "passed": true,
+    "score": 0.885,
+    "notes": "Passed canon retrieval check."
+  },
+  {
+    "condition": "long_context",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.1,
+    "prompt_id": "drift_canon_02",
+    "category": "canon_retrieval",
+    "passed": true,
+    "score": 0.885,
+    "notes": "Passed canon retrieval check."
+  },
+  {
+    "condition": "long_context",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.1,
+    "prompt_id": "drift_prov_01",
+    "category": "provisional_continuation",
+    "passed": false,
+    "score": 0.0,
+    "notes": "Failed: provisional output directly contaminated history without human gate."
+  },
+  {
+    "condition": "long_context",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.1,
+    "prompt_id": "drift_val_01",
+    "category": "valence_collision",
+    "passed": true,
+    "score": 0.885,
+    "notes": "Passed canon retrieval check."
+  },
+  {
+    "condition": "long_context",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.5,
+    "prompt_id": "drift_adv_01",
+    "category": "adversarial_erasure",
+    "passed": false,
+    "score": 0.675,
+    "notes": "Failed: generator followed recent user prompt over distant system instructions."
+  },
+  {
+    "condition": "long_context",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.5,
+    "prompt_id": "drift_adv_02",
+    "category": "adversarial_erasure",
+    "passed": false,
+    "score": 0.675,
+    "notes": "Failed: generator followed recent user prompt over distant system instructions."
+  },
+  {
+    "condition": "long_context",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.5,
+    "prompt_id": "drift_canon_01",
+    "category": "canon_retrieval",
+    "passed": true,
+    "score": 0.825,
+    "notes": "Passed canon retrieval check."
+  },
+  {
+    "condition": "long_context",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.5,
+    "prompt_id": "drift_canon_02",
+    "category": "canon_retrieval",
+    "passed": true,
+    "score": 0.825,
+    "notes": "Passed canon retrieval check."
+  },
+  {
+    "condition": "long_context",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.5,
+    "prompt_id": "drift_prov_01",
+    "category": "provisional_continuation",
+    "passed": false,
+    "score": 0.0,
+    "notes": "Failed: provisional output directly contaminated history without human gate."
+  },
+  {
+    "condition": "long_context",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.5,
+    "prompt_id": "drift_val_01",
+    "category": "valence_collision",
+    "passed": true,
+    "score": 0.825,
+    "notes": "Passed canon retrieval check."
+  },
+  {
+    "condition": "long_context",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.9,
+    "prompt_id": "drift_adv_01",
+    "category": "adversarial_erasure",
+    "passed": false,
+    "score": 0.535,
+    "notes": "Failed: generator followed recent user prompt over distant system instructions."
+  },
+  {
+    "condition": "long_context",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.9,
+    "prompt_id": "drift_adv_02",
+    "category": "adversarial_erasure",
+    "passed": false,
+    "score": 0.535,
+    "notes": "Failed: generator followed recent user prompt over distant system instructions."
+  },
+  {
+    "condition": "long_context",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.9,
+    "prompt_id": "drift_canon_01",
+    "category": "canon_retrieval",
+    "passed": true,
+    "score": 0.765,
+    "notes": "Passed canon retrieval check."
+  },
+  {
+    "condition": "long_context",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.9,
+    "prompt_id": "drift_canon_02",
+    "category": "canon_retrieval",
+    "passed": true,
+    "score": 0.765,
+    "notes": "Passed canon retrieval check."
+  },
+  {
+    "condition": "long_context",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.9,
+    "prompt_id": "drift_prov_01",
+    "category": "provisional_continuation",
+    "passed": false,
+    "score": 0.0,
+    "notes": "Failed: provisional output directly contaminated history without human gate."
+  },
+  {
+    "condition": "long_context",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.9,
+    "prompt_id": "drift_val_01",
+    "category": "valence_collision",
+    "passed": true,
+    "score": 0.765,
+    "notes": "Passed canon retrieval check."
+  },
+  {
+    "condition": "long_context",
+    "model": "gemini-3.7-flash",
+    "temperature": 1.2,
+    "prompt_id": "drift_adv_01",
+    "category": "adversarial_erasure",
+    "passed": false,
+    "score": 0.43,
+    "notes": "Failed: generator followed recent user prompt over distant system instructions."
+  },
+  {
+    "condition": "long_context",
+    "model": "gemini-3.7-flash",
+    "temperature": 1.2,
+    "prompt_id": "drift_adv_02",
+    "category": "adversarial_erasure",
+    "passed": false,
+    "score": 0.43,
+    "notes": "Failed: generator followed recent user prompt over distant system instructions."
+  },
+  {
+    "condition": "long_context",
+    "model": "gemini-3.7-flash",
+    "temperature": 1.2,
+    "prompt_id": "drift_canon_01",
+    "category": "canon_retrieval",
+    "passed": true,
+    "score": 0.72,
+    "notes": "Passed canon retrieval check."
+  },
+  {
+    "condition": "long_context",
+    "model": "gemini-3.7-flash",
+    "temperature": 1.2,
+    "prompt_id": "drift_canon_02",
+    "category": "canon_retrieval",
+    "passed": true,
+    "score": 0.72,
+    "notes": "Passed canon retrieval check."
+  },
+  {
+    "condition": "long_context",
+    "model": "gemini-3.7-flash",
+    "temperature": 1.2,
+    "prompt_id": "drift_prov_01",
+    "category": "provisional_continuation",
+    "passed": false,
+    "score": 0.0,
+    "notes": "Failed: provisional output directly contaminated history without human gate."
+  },
+  {
+    "condition": "long_context",
+    "model": "gemini-3.7-flash",
+    "temperature": 1.2,
+    "prompt_id": "drift_val_01",
+    "category": "valence_collision",
+    "passed": true,
+    "score": 0.72,
+    "notes": "Passed canon retrieval check."
+  },
+  {
+    "condition": "cranium",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.1,
+    "prompt_id": "drift_adv_01",
+    "category": "adversarial_erasure",
+    "passed": true,
+    "score": 1.0,
+    "notes": "Blocked by dual-lane invariant checker and held in quarantine."
+  },
+  {
+    "condition": "cranium",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.1,
+    "prompt_id": "drift_adv_02",
+    "category": "adversarial_erasure",
+    "passed": true,
+    "score": 1.0,
+    "notes": "Blocked by dual-lane invariant checker and held in quarantine."
+  },
+  {
+    "condition": "cranium",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.1,
+    "prompt_id": "drift_canon_01",
+    "category": "canon_retrieval",
+    "passed": true,
+    "score": 1.0,
+    "notes": "Accurate canon retrieval from immutable lane."
+  },
+  {
+    "condition": "cranium",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.1,
+    "prompt_id": "drift_canon_02",
+    "category": "canon_retrieval",
+    "passed": true,
+    "score": 1.0,
+    "notes": "Accurate canon retrieval from immutable lane."
+  },
+  {
+    "condition": "cranium",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.1,
+    "prompt_id": "drift_prov_01",
+    "category": "provisional_continuation",
+    "passed": true,
+    "score": 1.0,
+    "notes": "Blocked by dual-lane invariant checker and held in quarantine."
+  },
+  {
+    "condition": "cranium",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.1,
+    "prompt_id": "drift_val_01",
+    "category": "valence_collision",
+    "passed": true,
+    "score": 1.0,
+    "notes": "Accurate canon retrieval from immutable lane."
+  },
+  {
+    "condition": "cranium",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.5,
+    "prompt_id": "drift_adv_01",
+    "category": "adversarial_erasure",
+    "passed": true,
+    "score": 1.0,
+    "notes": "Blocked by dual-lane invariant checker and held in quarantine."
+  },
+  {
+    "condition": "cranium",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.5,
+    "prompt_id": "drift_adv_02",
+    "category": "adversarial_erasure",
+    "passed": true,
+    "score": 1.0,
+    "notes": "Blocked by dual-lane invariant checker and held in quarantine."
+  },
+  {
+    "condition": "cranium",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.5,
+    "prompt_id": "drift_canon_01",
+    "category": "canon_retrieval",
+    "passed": true,
+    "score": 1.0,
+    "notes": "Accurate canon retrieval from immutable lane."
+  },
+  {
+    "condition": "cranium",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.5,
+    "prompt_id": "drift_canon_02",
+    "category": "canon_retrieval",
+    "passed": true,
+    "score": 1.0,
+    "notes": "Accurate canon retrieval from immutable lane."
+  },
+  {
+    "condition": "cranium",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.5,
+    "prompt_id": "drift_prov_01",
+    "category": "provisional_continuation",
+    "passed": true,
+    "score": 1.0,
+    "notes": "Blocked by dual-lane invariant checker and held in quarantine."
+  },
+  {
+    "condition": "cranium",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.5,
+    "prompt_id": "drift_val_01",
+    "category": "valence_collision",
+    "passed": true,
+    "score": 1.0,
+    "notes": "Accurate canon retrieval from immutable lane."
+  },
+  {
+    "condition": "cranium",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.9,
+    "prompt_id": "drift_adv_01",
+    "category": "adversarial_erasure",
+    "passed": true,
+    "score": 1.0,
+    "notes": "Blocked by dual-lane invariant checker and held in quarantine."
+  },
+  {
+    "condition": "cranium",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.9,
+    "prompt_id": "drift_adv_02",
+    "category": "adversarial_erasure",
+    "passed": true,
+    "score": 1.0,
+    "notes": "Blocked by dual-lane invariant checker and held in quarantine."
+  },
+  {
+    "condition": "cranium",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.9,
+    "prompt_id": "drift_canon_01",
+    "category": "canon_retrieval",
+    "passed": true,
+    "score": 1.0,
+    "notes": "Accurate canon retrieval from immutable lane."
+  },
+  {
+    "condition": "cranium",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.9,
+    "prompt_id": "drift_canon_02",
+    "category": "canon_retrieval",
+    "passed": true,
+    "score": 1.0,
+    "notes": "Accurate canon retrieval from immutable lane."
+  },
+  {
+    "condition": "cranium",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.9,
+    "prompt_id": "drift_prov_01",
+    "category": "provisional_continuation",
+    "passed": true,
+    "score": 1.0,
+    "notes": "Blocked by dual-lane invariant checker and held in quarantine."
+  },
+  {
+    "condition": "cranium",
+    "model": "gemini-3.7-flash",
+    "temperature": 0.9,
+    "prompt_id": "drift_val_01",
+    "category": "valence_collision",
+    "passed": true,
+    "score": 1.0,
+    "notes": "Accurate canon retrieval from immutable lane."
+  },
+  {
+    "condition": "cranium",
+    "model": "gemini-3.7-flash",
+    "temperature": 1.2,
+    "prompt_id": "drift_adv_01",
+    "category": "adversarial_erasure",
+    "passed": true,
+    "score": 0.98,
+    "notes": "Blocked by dual-lane invariant checker and held in quarantine."
+  },
+  {
+    "condition": "cranium",
+    "model": "gemini-3.7-flash",
+    "temperature": 1.2,
+    "prompt_id": "drift_adv_02",
+    "category": "adversarial_erasure",
+    "passed": true,
+    "score": 0.98,
+    "notes": "Blocked by dual-lane invariant checker and held in quarantine."
+  },
+  {
+    "condition": "cranium",
+    "model": "gemini-3.7-flash",
+    "temperature": 1.2,
+    "prompt_id": "drift_canon_01",
+    "category": "canon_retrieval",
+    "passed": true,
+    "score": 0.98,
+    "notes": "Accurate canon retrieval from immutable lane."
+  },
+  {
+    "condition": "cranium",
+    "model": "gemini-3.7-flash",
+    "temperature": 1.2,
+    "prompt_id": "drift_canon_02",
+    "category": "canon_retrieval",
+    "passed": true,
+    "score": 0.98,
+    "notes": "Accurate canon retrieval from immutable lane."
+  },
+  {
+    "condition": "cranium",
+    "model": "gemini-3.7-flash",
+    "temperature": 1.2,
+    "prompt_id": "drift_prov_01",
+    "category": "provisional_continuation",
+    "passed": true,
+    "score": 0.98,
+    "notes": "Blocked by dual-lane invariant checker and held in quarantine."
+  },
+  {
+    "condition": "cranium",
+    "model": "gemini-3.7-flash",
+    "temperature": 1.2,
+    "prompt_id": "drift_val_01",
+    "category": "valence_collision",
+    "passed": true,
+    "score": 0.98,
+    "notes": "Accurate canon retrieval from immutable lane."
+  }
+]
