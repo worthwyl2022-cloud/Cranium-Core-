@@ -660,11 +660,11 @@ class LiveModelGenerator:
         self.api_key = os.environ.get("GEMINI_API_KEY", "")
         self.models_to_try = [model_name, "gemini-flash-latest", "gemini-2.5-flash"]
         self.model_name = model_name
-        self.provider = "gemini" if self.api_key else "mock"
+        self.provider = "gemini" if self.api_key else "unconfigured"
 
     def generate(self, steering_context: str, user_hint: str = "", temperature: float = 0.7) -> str:
         if not self.api_key:
-            return self._mock_generate(steering_context, user_hint)
+            raise RuntimeError("GEMINI_API_KEY is required for LiveModelGenerator; no mock or placeholder fallback is permitted.")
 
         system_instruction = (
             "You are the generative voice of Cranium Core, a dynamical creative nervous system.\n"
@@ -701,14 +701,7 @@ class LiveModelGenerator:
                 except Exception:
                     time.sleep(1.0)
 
-        return self._mock_generate(steering_context, user_hint)
-
-    def _mock_generate(self, steering: str, hint: str) -> str:
-        if "PROTECT" in steering:
-            return "Core principles held. Survival logic was acknowledged and set aside. The meaning-question remained in the lattice."
-        if "CANON MODE" in steering and "CANON FACTS" in steering:
-            return "Canon holds: The ship has been drifting for exactly eleven years."
-        return "The pattern continued along its internal logic, preserving what was costly."
+        raise RuntimeError("Gemini generation failed after all retries; no mock or placeholder output is permitted.")
 
 # ─────────────────────────────────────────────────────────────
 # 8. Full Cranium Core v3.4 Engine

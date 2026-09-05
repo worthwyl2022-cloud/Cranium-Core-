@@ -9,6 +9,7 @@ import com.example.data.model.*
 import com.example.data.repository.CraniumRepository
 import com.example.engine.DynamicalFieldEngine
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.isActive
@@ -32,6 +33,7 @@ data class CraniumUiState(
     val currentCycle: Int = 14
 )
 
+@OptIn(ExperimentalCoroutinesApi::class)
 class CraniumViewModel(application: Application) : AndroidViewModel(application) {
 
     private val repository: CraniumRepository

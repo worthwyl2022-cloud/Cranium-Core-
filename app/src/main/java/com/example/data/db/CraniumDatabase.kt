@@ -39,7 +39,6 @@ abstract class CraniumDatabase : RoomDatabase() {
                     "cranium_core_db"
                 )
                 .addCallback(DatabaseCallback(scope))
-                .fallbackToDestructiveMigration()
                 .build()
                 INSTANCE = instance
                 instance

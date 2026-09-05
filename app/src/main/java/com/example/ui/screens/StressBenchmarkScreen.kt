@@ -147,7 +147,7 @@ fun FormalBuyerAuditCard(state: CraniumUiState) {
                         modifier = Modifier
                             .fillMaxWidth()
                             .testTag("share_markdown_button"),
-                        border = ButtonDefaults.outlinedButtonBorder.copy(brush = androidx.compose.ui.graphics.SolidColor(NeonCyan))
+                        border = ButtonDefaults.outlinedButtonBorder(enabled = true).copy(brush = androidx.compose.ui.graphics.SolidColor(NeonCyan))
                     ) {
                         Icon(Icons.Default.Code, contentDescription = null, tint = NeonCyan, modifier = Modifier.size(16.dp))
                         Spacer(modifier = Modifier.width(8.dp))
@@ -162,7 +162,7 @@ fun FormalBuyerAuditCard(state: CraniumUiState) {
                         modifier = Modifier
                             .fillMaxWidth()
                             .testTag("share_json_button"),
-                        border = ButtonDefaults.outlinedButtonBorder.copy(brush = androidx.compose.ui.graphics.SolidColor(TextSecondary))
+                        border = ButtonDefaults.outlinedButtonBorder(enabled = true).copy(brush = androidx.compose.ui.graphics.SolidColor(TextSecondary))
                     ) {
                         Icon(Icons.Default.VerifiedUser, contentDescription = null, tint = TextSecondary, modifier = Modifier.size(16.dp))
                         Spacer(modifier = Modifier.width(8.dp))
